@@ -5,8 +5,8 @@ public _szukaj_max
 
 .code
 _szukaj_max PROC
-	push ebp			; zapisanie zawartoúci EBP na stosie
-	mov ebp, esp		; kopiowanie zawartoúci ESP do EBP
+	push ebp			; zapisanie zawarto≈õci EBP na stosie
+	mov ebp, esp		; kopiowanie zawarto≈õci ESP do EBP
 
 	mov eax, [ebp+8]	; liczba x
 	cmp eax, [ebp+12]	; porownanie liczb x i y
